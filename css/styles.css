@@ -455,13 +455,10 @@ html{
             position: absolute;
             right: 8px;
             top: 8px;
-            color: #2196F3
+            fill: #000000;
         }
      
-        .close-symbol:hover,
-        .close-symbol:focus{
-        fill: currentColor;
-        }
+        
         
 
         .modal{
@@ -1231,7 +1228,7 @@ color: #212121;
         border-radius: 4px;
         width: 200px;
         height: 50px;   
-           
+        border-style: none;
        }
 
        .form-input-footer{
