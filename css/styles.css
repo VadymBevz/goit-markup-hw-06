@@ -456,6 +456,8 @@ html{
             right: 8px;
             top: 8px;
             color: #212121;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
         }
 
         
@@ -621,8 +623,7 @@ color: rgba(117, 117, 117, 0.5);
             justify-content: center;
             cursor: pointer;
             fill: currentColor;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-radius: 50%;
+            
         }
         
 
