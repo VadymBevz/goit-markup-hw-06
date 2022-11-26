@@ -457,6 +457,8 @@ html{
             top: 8px;
             color: #212121;
         }
+
+        
      
         .close-button:hover{
             color: #2196F3;
@@ -619,6 +621,7 @@ color: rgba(117, 117, 117, 0.5);
             justify-content: center;
             cursor: pointer;
             fill: currentColor;
+            
         }
 
         .check-icon{
