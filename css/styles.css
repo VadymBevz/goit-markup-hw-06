@@ -455,10 +455,12 @@ html{
             position: absolute;
             right: 8px;
             top: 8px;
-            fill: #000000;
+            color: #212121;
         }
      
-        
+        .close-button:hover{
+            color: #2196F3;
+        }
         
 
         .modal{
@@ -556,6 +558,8 @@ color: rgba(117, 117, 117, 0.5);
         margin-bottom: 20px;
         }
 
+        
+
         .check-label{
         font-family: 'Roboto';
         font-style: normal;
@@ -566,10 +570,29 @@ color: rgba(117, 117, 117, 0.5);
         color: #757575;
         width: 400px;
         height: 24px;
-       
-        
+        display: flex;
+        align-items: center;
         
         }
+
+        .check-label::before{
+        content: '';
+        width: 16px;
+        height: 15px;
+        border: 2px solid #212121;
+        
+        }
+
+        
+
+        .check-modal:checked + .check-label::before{
+            background-color: #2196F3;
+            border: none;
+            background-image: url(../images/check.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
 
         .modal-button{
         margin-top: 30px;
@@ -595,6 +618,13 @@ color: rgba(117, 117, 117, 0.5);
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            fill: currentColor;
+        }
+
+        .check-icon{
+            position: absolute;
+            left: 62px;
+            bottom: 126px;
         }
 
         
@@ -1216,7 +1246,7 @@ color: #212121;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-left: 93px;
-        
+        margin-bottom: 20px;
        }
 
        .button-submit{
@@ -1229,6 +1259,20 @@ color: #212121;
         width: 200px;
         height: 50px;   
         border-style: none;
+        margin-left: 12px;
+        
+       }
+
+       .sends{
+        position: relative;
+        
+       }
+
+       .send-icon{
+        position: absolute;
+        fill: #FFFFFF;
+        left: 160px;
+        top: 12px;
        }
 
        .form-input-footer{
@@ -1239,7 +1283,7 @@ color: #212121;
         border-radius: 4px;
         background-color: transparent;
         color:rgba(255, 255, 255, 0.6);
-        margin-top: 20px;
+        
         width: 358px;
         height: 50px;
         border: 1px solid rgba(255, 255, 255, 0.3);
