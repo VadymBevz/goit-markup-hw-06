@@ -1311,9 +1311,9 @@ color: #212121;
         height: 50px;   
         border-style: none;
         margin-left: 12px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
        }
 
        
@@ -1322,8 +1322,8 @@ color: #212121;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 149px;
-        margin-bottom: 13px;
+        margin-left: 11px;
+        
         fill: #FFFFFF;
         
        }
