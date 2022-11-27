@@ -630,6 +630,7 @@ color: rgba(117, 117, 117, 0.5);
         
 
         .modal-button{
+            font-weight: 500;
         margin-top: 30px;
         width: 200px;
         height: 50px;
@@ -637,11 +638,18 @@ color: rgba(117, 117, 117, 0.5);
         top: 713px;
 
        background: #188CE8;
-       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+       
        border-radius: 4px;
        color: #FFFFFF;
        border-style: none;
        cursor: pointer;
+        }
+
+        .modal-button:hover,
+        .modal-button:focus{
+            background: #188CE8;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            
         }
 
         .backdrop.is-hidden .modal{
@@ -1273,6 +1281,7 @@ color: #212121;
        }
 
        .login-footer-text{
+        
         color: #FFFFFF;
         margin-bottom: 20px;
         font-family: 'Roboto';
@@ -1283,11 +1292,16 @@ color: #212121;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-left: 93px;
+        
+       }
+
+       .footer-text{
         margin-bottom: 20px;
+        display: block;
        }
 
        .button-submit{
-        
+        font-weight: 500;
         cursor: pointer;
         color: #FFFFFF;
         background: #2196F3;
@@ -1313,7 +1327,7 @@ color: #212121;
        }
 
        .form-input-footer{
-        
+        padding-left: 16px;
         justify-content: center;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
