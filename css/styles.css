@@ -1311,8 +1311,9 @@ color: #212121;
         height: 50px;   
         border-style: none;
         margin-left: 12px;
-        position: relative;
-        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 13px;
        }
 
        
@@ -1321,11 +1322,10 @@ color: #212121;
         display: flex;
         align-items: center;
         justify-content: center;
-        
-        position: absolute;
+        margin-left: 149px;
+        margin-bottom: 13px;
         fill: #FFFFFF;
-        left: 160px;
-        top: 12px;
+        
        }
 
        .form-input-footer{
