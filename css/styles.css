@@ -194,8 +194,7 @@ html{
         
         
         .info{
-        padding-top: 32px;
-        padding-bottom: 32px;
+        
         margin-left: auto;
         display: flex;
         justify-content: center;
@@ -429,7 +428,7 @@ html{
         color: #FFFFFF;
         background-color: #2196F3;
         font-family: inherit;
-        
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.87;
         }
@@ -449,6 +448,7 @@ html{
         }
 
         .close-button{
+            padding: 6px;
             background: transparent;
             border: 1px solid rgba(0, 0, 0, 0.1);
             border: none;
@@ -524,9 +524,11 @@ html{
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         outline: transparent;
-        padding-left: 24px;
+        padding-left: 42px;
         
         }
+
+        
 
         .modal-input:focus{
         border-color: #2196F3;
@@ -538,7 +540,7 @@ html{
 
         .modal-icon{
         position: absolute;
-        left: 3px;
+        left: 12px;
         top: 50%;
         transform: translateY(-50%);
         
@@ -562,7 +564,24 @@ color: rgba(117, 117, 117, 0.5);
         margin-bottom: 20px;
         }
 
-        
+        .text-area:focus{
+       border: 1px solid #2196F3;
+        }
+
+        .text-area::placeholder{
+            padding-left: 18px;
+            padding-top: 12px;
+            color: rgba(117, 117, 117, 0.5);
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+            width: 416px;
+            height: 96px;
+            left: 592px;
+            top: 531px;
+            font-style: normal;
+        }
 
         .check-label{
         font-family: 'Roboto';
@@ -572,8 +591,7 @@ color: rgba(117, 117, 117, 0.5);
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #757575;
-        width: 400px;
-        height: 24px;
+        justify-content: center;
         display: flex;
         align-items: center;
         
@@ -584,7 +602,20 @@ color: rgba(117, 117, 117, 0.5);
         width: 16px;
         height: 15px;
         border: 2px solid #212121;
-        
+        margin-right: 8px;
+        }
+
+        .text-color{
+            letter-spacing: 0.03em;
+            text-decoration-line: underline;
+            
+            color: #2196F3;
+            margin-left: 2px;
+            cursor: pointer;
+        }
+
+        .text-color a{
+            color: #2196F3;
         }
 
         
