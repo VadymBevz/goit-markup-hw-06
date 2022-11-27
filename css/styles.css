@@ -1311,15 +1311,17 @@ color: #212121;
         height: 50px;   
         border-style: none;
         margin-left: 12px;
-        
-       }
-
-       .sends{
         position: relative;
         
        }
 
+       
+
        .send-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         position: absolute;
         fill: #FFFFFF;
         left: 160px;
